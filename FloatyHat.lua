@@ -36,7 +36,7 @@ FrameStroke.Parent = Frame
 local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, 0, 0, 45)
 Title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Title.Text = "Digital Bee Panel"
+Title.Text = "🤖 Digital Bee Panel 🤖"
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 18
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -263,3 +263,4 @@ createEquipButton("White Hive", {
     {"Equip", {Category = "Accessory", Type = "Gummy Mask"}},
     {"Equip", {Type = "Gummyballer", Category = "Collector", Amount = 1}}
 }, 110, 115, pinkTurquoiseGradient)
+
